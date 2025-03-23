@@ -1,0 +1,32 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm src/index",
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mijamoto911/goit-node-cli.git"
+  },
+  "author": "Eduard Schumacher <mijamoto911@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mijamoto911/goit-node-cli/issues"
+  },
+  "homepage": "https://github.com/mijamoto911/goit-node-cli#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^13.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nanoid": "^5.1.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
