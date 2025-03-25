@@ -43,7 +43,7 @@ node src/index.js --action list
 🔍 Отримати контакт за ID
 
 ```bash
-node src/index.js --action get --contactId <ID>
+node src/index.js --action get --id <ID>
 ```
 
 ➕ Додати новий контакт
@@ -55,7 +55,7 @@ node src/index.js --action add --name "Ім'я" --email "email@example.com" --ph
 ❌ Видалити контакт за ID
 
 ```bash
-node src/index.js --action remove --contactId <ID>
+node src/index.js --action remove --id <ID>
 ```
 
 📌 Параметри
